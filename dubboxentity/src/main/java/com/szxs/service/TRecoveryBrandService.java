@@ -19,5 +19,5 @@ public interface TRecoveryBrandService {
      * 查询回收手机品牌
      */
     List<TRecoveryBrand> selectTRecoveryBrand();
-
+    List<TRecoveryBrand> selectTRecoveryBrand(int a);
 }
