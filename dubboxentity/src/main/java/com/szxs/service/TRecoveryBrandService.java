@@ -1,5 +1,6 @@
 package com.szxs.service;
 
+import com.szxs.entity.JqueryTable;
 import com.szxs.entity.TRecoveryBrand;
 
 import java.util.List;
@@ -16,8 +17,7 @@ public interface TRecoveryBrandService {
      * @User: Administrator
      * @Date: 19:47 2018/11/6
      * @param:  * @param null
-     * 查询回收手机品牌
+     * 查询所有回收手机品牌分页
      */
-    List<TRecoveryBrand> selectTRecoveryBrand();
-
+    JqueryTable<TRecoveryBrand> selectRecoveryBrand(int pageNo, int pageSize, int draw, TRecoveryBrand appInfo);
 }
