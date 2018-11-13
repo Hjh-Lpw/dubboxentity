@@ -20,4 +20,6 @@ public interface TRecoveryBrandService {
      * 查询所有回收手机品牌分页
      */
     JqueryTable<TRecoveryBrand> selectRecoveryBrand(int pageNo, int pageSize, int draw, TRecoveryBrand appInfo);
+
+    List<TRecoveryBrand> selectRecover();
 }
