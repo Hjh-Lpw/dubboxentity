@@ -40,4 +40,25 @@ public interface TRecoveryBrandService {
      * 根据编码和名字查询
      */
     List<TRecoveryBrand> selectRecoverByType(TRecoveryBrand tRecoveryBrand);
+
+    /**
+     * @Auther:HuJinHua
+     * Description
+     * @User: Administrator
+     * @Date: 8:53 2018/11/14
+     * @param:  * @param null
+     * 根据品牌ID 删除
+     */
+    Boolean deleteBrandById(TRecoveryBrand tRecoveryBrand);
+
+
+    /**
+     * @Auther:HuJinHua
+     * Description
+     * @User: Administrator
+     * @Date: 9:56 2018/11/14
+     * @param:  * @param null
+     * 新增回收手机品牌
+     */
+    int insertTRecoveryBrand(TRecoveryBrand tRecoveryBrand);
 }
