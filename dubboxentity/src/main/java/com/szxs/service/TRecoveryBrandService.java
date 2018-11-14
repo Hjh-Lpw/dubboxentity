@@ -22,24 +22,24 @@ public interface TRecoveryBrandService {
     JqueryTable<TRecoveryBrand> selectRecoveryBrand(int pageNo, int pageSize, int draw, TRecoveryBrand appInfo);
 
 
-    /**
-     * @Auther:HuJinHua
-     * Description
-     * @User: Administrator
-     * @Date: 11:14 2018/11/13
-     * @param:  * @param null
-     * 查询所有回收手机品牌
-     */
-    List<TRecoveryBrand> selectRecover();
-    /**
-     * @Auther:HuJinHua
-     * Description
-     * @User: Administrator
-     * @Date: 11:05 2018/11/13
-     * @param:  * @param null
-     * 根据编码和名字查询
-     */
-    List<TRecoveryBrand> selectRecoverByType(TRecoveryBrand tRecoveryBrand);
+//    /**
+//     * @Auther:HuJinHua
+//     * Description
+//     * @User: Administrator
+//     * @Date: 11:14 2018/11/13
+//     * @param:  * @param null
+//     * 查询所有回收手机品牌
+//     */
+//    List<TRecoveryBrand> selectRecover();
+//    /**
+//     * @Auther:HuJinHua
+//     * Description
+//     * @User: Administrator
+//     * @Date: 11:05 2018/11/13
+//     * @param:  * @param null
+//     * 根据编码和名字查询
+//     */
+//    List<TRecoveryBrand> selectRecoverByType(TRecoveryBrand tRecoveryBrand);
 
     /**
      * @Auther:HuJinHua
