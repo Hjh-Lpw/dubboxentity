@@ -51,7 +51,6 @@ public interface TRecoveryBrandService {
      */
     Boolean deleteBrandById(TRecoveryBrand tRecoveryBrand);
 
-
     /**
      * @Auther:HuJinHua
      * Description

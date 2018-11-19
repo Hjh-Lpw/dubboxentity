@@ -1,13 +1,6 @@
 package com.szxs.entity;
 
 
-/**
- * 机型
- * @Title:recoveryDevice
- * @Description: 
- * @user: yiwu 
- * @date:2018年7月7日 下午2:03:56
- */
 public class RecoveryDevice {
     private String uuid;
 
