@@ -3,23 +3,21 @@ package com.szxs.service;
 import com.szxs.entity.JqueryTable;
 import com.szxs.entity.TRecoveryBrand;
 
-import java.util.List;
-
 /**
  * @Auther:HuJinHua
  * @Descrioption:
- * @Date:2018/11/7 09:59
+ * @Date:2018/11/19 17:56
  */
-public interface TRecoveryBrandService {
+public interface RecoveryDevice {
     /**
      * @Auther:HuJinHua
      * Description
      * @User: Administrator
-     * @Date: 19:47 2018/11/6
+     * @Date: 17:56 2018/11/19
      * @param:  * @param null
-     * 查询所有回收手机品牌分页
+     * 查询所有回收机型分页
      */
-    JqueryTable<TRecoveryBrand> selectRecoveryBrand(int pageNo, int pageSize, int draw, TRecoveryBrand appInfo);
+    JqueryTable<TRecoveryBrand> selectRecoveryBrand(int pageNo, int pageSize, int draw, RecoveryDevice recoveryDevice);
 
     /**
      * @Auther:HuJinHua
@@ -27,9 +25,9 @@ public interface TRecoveryBrandService {
      * @User: Administrator
      * @Date: 8:53 2018/11/14
      * @param:  * @param null
-     * 根据品牌ID 删除
+     * 根据机型ID 删除
      */
-    Boolean deleteBrandById(TRecoveryBrand tRecoveryBrand);
+    Boolean deleteDeviceById(TRecoveryBrand tRecoveryBrand);
 
     /**
      * @Auther:HuJinHua
@@ -37,9 +35,9 @@ public interface TRecoveryBrandService {
      * @User: Administrator
      * @Date: 9:56 2018/11/14
      * @param:  * @param null
-     * 新增回收手机品牌
+     * 新增回收手机机型
      */
-    int insertTRecoveryBrand(TRecoveryBrand tRecoveryBrand);
+    int insertRecoveryDevice(TRecoveryBrand tRecoveryBrand);
 
     /**
      * @Auther:HuJinHua
@@ -47,8 +45,8 @@ public interface TRecoveryBrandService {
      * @User: Administrator
      * @Date: 14:07 2018/11/19
      * @param:  * @param null
-     * 根据品牌ID 修改
+     * 根据机型ID 修改
      */
-    int updateTRecoveryBrandByUUID(TRecoveryBrand tRecoveryBrand);
+    int updateTRecoveryDeviceByUUID(TRecoveryBrand tRecoveryBrand);
 
 }
