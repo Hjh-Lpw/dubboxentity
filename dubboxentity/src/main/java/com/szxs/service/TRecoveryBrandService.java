@@ -61,4 +61,14 @@ public interface TRecoveryBrandService {
      * 新增回收手机品牌
      */
     int insertTRecoveryBrand(TRecoveryBrand tRecoveryBrand);
+
+    /**
+     * @Auther:HuJinHua
+     * Description
+     * @User: Administrator
+     * @Date: 14:07 2018/11/19
+     * @param:  * @param null
+     * 根据品牌ID 修改
+     */
+    int updateTRecoveryBrandByUUID(TRecoveryBrand tRecoveryBrand);
 }
