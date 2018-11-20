@@ -17,7 +17,7 @@ public interface RecoveryDevice {
      * @param:  * @param null
      * 查询所有回收机型分页
      */
-    JqueryTable<TRecoveryBrand> selectRecoveryBrand(int pageNo, int pageSize, int draw, RecoveryDevice recoveryDevice);
+    JqueryTable<RecoveryDevice> selectRecoveryBrand(int pageNo, int pageSize, int draw, RecoveryDevice recoveryDevice);
 
     /**
      * @Auther:HuJinHua
@@ -27,7 +27,7 @@ public interface RecoveryDevice {
      * @param:  * @param null
      * 根据机型ID 删除
      */
-    Boolean deleteDeviceById(TRecoveryBrand tRecoveryBrand);
+    Boolean deleteDeviceById(RecoveryDevice recoveryDevice);
 
     /**
      * @Auther:HuJinHua
@@ -37,7 +37,7 @@ public interface RecoveryDevice {
      * @param:  * @param null
      * 新增回收手机机型
      */
-    int insertRecoveryDevice(TRecoveryBrand tRecoveryBrand);
+    int insertRecoveryDevice(RecoveryDevice recoveryDevice);
 
     /**
      * @Auther:HuJinHua
@@ -47,6 +47,6 @@ public interface RecoveryDevice {
      * @param:  * @param null
      * 根据机型ID 修改
      */
-    int updateTRecoveryDeviceByUUID(TRecoveryBrand tRecoveryBrand);
+    int updateTRecoveryDeviceByUUID(RecoveryDevice recoveryDevice);
 
 }
