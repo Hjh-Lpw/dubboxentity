@@ -51,4 +51,13 @@ public interface TRecoveryBrandService {
      */
     int updateTRecoveryBrandByUUID(TRecoveryBrand tRecoveryBrand);
 
+    /**
+     * @Auther:HuJinHua
+     * Description
+     * @User: Administrator
+     * @Date: 9:16 2018/11/20
+     * @param:  * @param null
+     * 根据品牌ID查询
+     */
+    TRecoveryBrand selectTRecoveryBrandById(TRecoveryBrand tRecoveryBrand);
 }
