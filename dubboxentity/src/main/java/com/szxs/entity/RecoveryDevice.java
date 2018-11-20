@@ -31,6 +31,7 @@ public class RecoveryDevice implements Serializable {
     private String extField2;
 
     private String memo;
+    private String brandName;
 
     public String getUuid() {
         return uuid;
@@ -142,5 +143,13 @@ public class RecoveryDevice implements Serializable {
 
     public void setMemo(String memo) {
         this.memo = memo == null ? null : memo.trim();
+    }
+
+    public String getBrandName() {
+        return brandName;
+    }
+
+    public void setBrandName(String brandName) {
+        this.brandName = brandName;
     }
 }
