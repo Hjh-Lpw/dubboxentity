@@ -60,4 +60,13 @@ public interface TRecoveryBrandService {
      * 根据品牌ID查询
      */
     TRecoveryBrand selectTRecoveryBrandById(TRecoveryBrand tRecoveryBrand);
+   /**
+    * @Auther:HuJinHua
+    * Description
+    * @User: Administrator
+    * @Date: 15:28 2018/11/21
+    * @param:  * @param null
+    * 查询所有品牌
+    */
+    List<TRecoveryBrand> searchAllBrand();
 }
