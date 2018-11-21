@@ -1,14 +1,14 @@
 package com.szxs.service;
 
 import com.szxs.entity.JqueryTable;
-import com.szxs.entity.TRecoveryBrand;
+import com.szxs.entity.RecoveryDevice;
 
 /**
  * @Auther:HuJinHua
  * @Descrioption:
  * @Date:2018/11/19 17:56
  */
-public interface RecoveryDevice {
+public interface RecoveryDeviceService {
     /**
      * @Auther:HuJinHua
      * Description
