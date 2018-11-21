@@ -17,7 +17,7 @@ public interface RecoveryDeviceService {
      * @param:  * @param null
      * 查询所有回收机型分页
      */
-    JqueryTable<RecoveryDevice> selectRecoveryBrand(int pageNo, int pageSize, int draw, RecoveryDevice recoveryDevice);
+    JqueryTable<RecoveryDevice> selectRecoveryDevice(int pageNo, int pageSize, int draw, RecoveryDevice recoveryDevice);
 
     /**
      * @Auther:HuJinHua
