@@ -1,7 +1,7 @@
 package com.szxs.service;
 
 import com.szxs.entity.JqueryTable;
-import com.szxs.entity.RecoveryDevice;
+import com.szxs.entity.RecoveryDevice1;
 
 /**
  * @Auther:HuJinHua
@@ -17,7 +17,7 @@ public interface RecoveryDeviceService {
      * @param:  * @param null
      * 查询所有回收机型分页
      */
-    JqueryTable<RecoveryDevice> selectRecoveryDevice(int pageNo, int pageSize, int draw, RecoveryDevice recoveryDevice);
+    JqueryTable<RecoveryDevice1> selectRecoveryDevice(int pageNo, int pageSize, int draw, RecoveryDevice1 recoveryDevice1);
 
     /**
      * @Auther:HuJinHua
@@ -27,7 +27,7 @@ public interface RecoveryDeviceService {
      * @param:  * @param null
      * 根据机型ID 删除
      */
-    Boolean deleteDeviceById(RecoveryDevice recoveryDevice);
+    Boolean deleteDeviceById(RecoveryDevice1 recoveryDevice1);
 
     /**
      * @Auther:HuJinHua
@@ -37,7 +37,7 @@ public interface RecoveryDeviceService {
      * @param:  * @param null
      * 新增回收手机机型
      */
-    int insertRecoveryDevice(RecoveryDevice recoveryDevice);
+    int insertRecoveryDevice(RecoveryDevice1 recoveryDevice1);
 
     /**
      * @Auther:HuJinHua
@@ -47,7 +47,7 @@ public interface RecoveryDeviceService {
      * @param:  * @param null
      * 根据机型ID 修改
      */
-    int updateTRecoveryDeviceByUUID(RecoveryDevice recoveryDevice);
+    int updateTRecoveryDeviceByUUID(RecoveryDevice1 recoveryDevice1);
 
     /**
      * @Auther:HuJinHua
@@ -57,5 +57,5 @@ public interface RecoveryDeviceService {
      * @param:  * @param null
      * 根据ID查询对象
      */
-    RecoveryDevice searchRecoveryDeviceById(RecoveryDevice recoveryDevice);
+    RecoveryDevice1 searchRecoveryDeviceById(RecoveryDevice1 recoveryDevice1);
 }

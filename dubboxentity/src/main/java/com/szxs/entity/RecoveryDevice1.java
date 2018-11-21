@@ -3,7 +3,7 @@ package com.szxs.entity;
 
 import java.io.Serializable;
 
-public class RecoveryDevice implements Serializable {
+public class RecoveryDevice1 implements Serializable {
     private String uuid;
 
     private String brandId;
