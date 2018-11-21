@@ -49,4 +49,13 @@ public interface RecoveryDevice {
      */
     int updateTRecoveryDeviceByUUID(RecoveryDevice recoveryDevice);
 
+    /**
+     * @Auther:HuJinHua
+     * Description
+     * @User: Administrator
+     * @Date: 15:04 2018/11/20
+     * @param:  * @param null
+     * 根据ID查询对象
+     */
+    RecoveryDevice searchRecoveryDeviceById(RecoveryDevice recoveryDevice);
 }
