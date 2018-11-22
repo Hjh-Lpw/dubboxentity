@@ -16,7 +16,7 @@ public class TRecoveryDeviceQuote  implements Serializable {
   private String extField1;
   private String extField2;
   private String memo;
-
+private String deviceModel;
 
   public String getUuid() {
     return uuid;
@@ -116,4 +116,11 @@ public class TRecoveryDeviceQuote  implements Serializable {
     this.memo = memo;
   }
 
+  public String getDeviceModel() {
+    return deviceModel;
+  }
+
+  public void setDeviceModel(String deviceModel) {
+    this.deviceModel = deviceModel;
+  }
 }
