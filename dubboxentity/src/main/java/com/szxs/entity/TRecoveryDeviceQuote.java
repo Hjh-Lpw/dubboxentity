@@ -16,7 +16,7 @@ public class TRecoveryDeviceQuote  implements Serializable {
   private String extField1;
   private String extField2;
   private String memo;
-private String deviceModel;
+  private String deviceModel;
 
   public String getUuid() {
     return uuid;
