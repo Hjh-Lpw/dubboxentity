@@ -60,14 +60,4 @@ public interface RecoveryDeviceService {
      * 根据ID查询对象
      */
     RecoveryDevice1 searchRecoveryDeviceById(RecoveryDevice1 recoveryDevice1);
-
-    /**
-     * @Auther:HuJinHua
-     * Description
-     * @User: Administrator
-     * @Date: 15:04 2018/11/24
-     * @param:  * @param null
-     * 查询所有回收设备
-     */
-    List<RecoveryDevice1> searchAllDevice();
 }
