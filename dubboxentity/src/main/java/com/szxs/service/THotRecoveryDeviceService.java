@@ -17,5 +17,5 @@ public interface THotRecoveryDeviceService {
      * @param:  * @param null
      * 查询所有热门手机分页
      */
-    JqueryTable<THotRecoveryDevice> selectRecoveryDevice(int pageNo, int pageSize, int draw, THotRecoveryDevice tHotRecoveryDevice);
+    JqueryTable<THotRecoveryDevice> selectTHotRecoveryDevice(int pageNo, int pageSize, int draw, THotRecoveryDevice tHotRecoveryDevice);
 }
