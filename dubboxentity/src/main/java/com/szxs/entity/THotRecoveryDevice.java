@@ -14,7 +14,8 @@ public class THotRecoveryDevice {
   private String extField1;
   private String extField2;
   private String memo;
-
+  private String brandName;
+  private String deviceModel;
 
   public String getUuid() {
     return uuid;
@@ -114,4 +115,19 @@ public class THotRecoveryDevice {
     this.memo = memo;
   }
 
+  public String getBrandName() {
+    return brandName;
+  }
+
+  public void setBrandName(String brandName) {
+    this.brandName = brandName;
+  }
+
+  public String getDeviceModel() {
+    return deviceModel;
+  }
+
+  public void setDeviceModel(String deviceModel) {
+    this.deviceModel = deviceModel;
+  }
 }
