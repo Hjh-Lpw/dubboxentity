@@ -16,6 +16,8 @@ public class THotRecoveryDevice {
   private String memo;
   private String brandName;
   private String deviceModel;
+  private long minPrice;
+  private long maxPrice;
 
   public String getUuid() {
     return uuid;
@@ -130,4 +132,20 @@ public class THotRecoveryDevice {
   public void setDeviceModel(String deviceModel) {
     this.deviceModel = deviceModel;
   }
+
+    public long getMinPrice() {
+        return minPrice;
+    }
+
+    public void setMinPrice(long minPrice) {
+        this.minPrice = minPrice;
+    }
+
+    public long getMaxPrice() {
+        return maxPrice;
+    }
+
+    public void setMaxPrice(long maxPrice) {
+        this.maxPrice = maxPrice;
+    }
 }
