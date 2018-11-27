@@ -19,4 +19,44 @@ public interface TRecoveryCheckItemService {
     */
     JqueryTable<TRecoveryCheckItem> selectTRecoveryCheckItem(int pageNo, int pageSize, int draw, TRecoveryCheckItem tRecoveryCheckItem);
 
+    /**
+     * @Auther:HuJinHua
+     * Description
+     * @User: Administrator
+     * @Date: 15:40 2018/11/27
+     * 根据检查项ID删除
+     * @param:  * @param null
+     */
+    Boolean deleteTRecoveryCheckItemById(TRecoveryCheckItem tRecoveryCheckItem);
+
+    /**
+     * @Auther:HuJinHua
+     * Description
+     * @User: Administrator
+     * @Date: 15:40 2018/11/27
+     * 新增检查项
+     * @param:  * @param null
+     */
+    int insertTRecoveryCheckItem(TRecoveryCheckItem tRecoveryCheckItem);
+
+
+    /**
+     * @Auther:HuJinHua
+     * Description
+     * @User: Administrator
+     * @Date: 15:40 2018/11/27
+     * 修改检查项
+     * @param:  * @param null
+     */
+    int updateTRecoveryCheckItem(TRecoveryCheckItem tRecoveryCheckItem);
+    /**
+     * @Auther:HuJinHua
+     * Description
+     * @User: Administrator
+     * @Date: 15:40 2018/11/27
+     * 查询检查项
+     * @param:  * @param null
+     */
+    TRecoveryCheckItem selectTRecoveryCheckItemById(TRecoveryCheckItem tRecoveryCheckItem);
+
 }
