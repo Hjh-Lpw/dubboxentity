@@ -9,14 +9,14 @@ import com.szxs.entity.TRecoveryCheckItem;
  * @Date:2018/11/27 11:32
  */
 public interface TRecoveryCheckItemService {
-    /**
-     * @Auther:HuJinHua
-     * Description
-     * @User: Administrator
-     * @Date: 17:56 2018/11/19
-     * @param:  * @param null
-     * 查询检测项分页
-     */
+   /**
+    * @Auther:HuJinHua
+    * Description
+    * @User: Administrator
+    * @Date: 11:44 2018/11/27
+    * @param:  * @param null
+    * 查询检测项分页
+    */
     JqueryTable<TRecoveryCheckItem> selectTRecoveryCheckItem(int pageNo, int pageSize, int draw, TRecoveryCheckItem tRecoveryCheckItem);
 
 }
