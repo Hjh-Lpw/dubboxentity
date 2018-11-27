@@ -1,7 +1,6 @@
 package com.szxs.service;
 
 import com.szxs.entity.JqueryTable;
-import com.szxs.entity.RecoveryDevice1;
 import com.szxs.entity.TRecoveryCheckItem;
 
 /**
@@ -18,6 +17,6 @@ public interface TRecoveryCheckItemService {
      * @param:  * @param null
      * 查询检测项分页
      */
-    JqueryTable<RecoveryDevice1> selectTRecoveryCheckItem(int pageNo, int pageSize, int draw, TRecoveryCheckItem tRecoveryCheckItem);
+    JqueryTable<TRecoveryCheckItem> selectTRecoveryCheckItem(int pageNo, int pageSize, int draw, TRecoveryCheckItem tRecoveryCheckItem);
 
 }
